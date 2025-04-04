@@ -1,0 +1,18 @@
+IMAGE PLACEHOLDER: team-3.jpg
+
+Description: Professional headshot of Rahul Deshmukh, the NGO Relations Manager of Hunger Help.
+The image should show a young male professional in his mid-to-late 20s, with a friendly
+and compassionate demeanor. The background should be neutral and professional.
+
+Recommended image specifications:
+- Resolution: 600x800 pixels (3:4 ratio, portrait orientation)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Professional headshot, well-lit
+- Color scheme: Clean, professional
+
+Notes for implementation:
+- Replace this text file with an actual image file named "team-3.jpg"
+- The image should be sourced with proper rights/licensing
+- Should match the described persona of an NGO relations specialist from Pune
+- Should convey approachability and community focus 

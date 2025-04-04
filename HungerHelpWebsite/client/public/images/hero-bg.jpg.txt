@@ -1,0 +1,6 @@
+This is a placeholder for the hero-bg.jpg image.
+
+In a real implementation, this would be a high-quality image showing food donation, 
+volunteers, or community meal services. The recommended size is 1920x800 pixels.
+
+For best results, use a high-contrast image that allows text to be readable when placed over it. 

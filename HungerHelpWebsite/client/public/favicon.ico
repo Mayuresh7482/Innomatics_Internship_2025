@@ -1,0 +1,7 @@
+This is a placeholder for the favicon.ico file.
+
+In an actual implementation, this would be an ICO file containing the Hunger Help logo icon.
+The favicon would be a simplified version of the main logo that works well at small sizes.
+
+For deployment, replace this placeholder with an actual favicon.ico file, which should include
+multiple resolutions (16x16, 32x32, 48x48) for different browser and operating system needs. 

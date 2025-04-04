@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato, mozzarella, and basil.",
+      "price": 8.99,
+      "image": "https://images.pexels.com/photos/669732/pexels-photo-669732.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni Pizza",
+      "description": "Pizza topped with pepperoni, tomato sauce, and mozzarella.",
+      "price": 9.99,
+      "image": "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "description": "Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+      "price": 5.99,
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Spaghetti Carbonara",
+      "description": "Pasta with pancetta, egg, and Parmesan, served with garlic bread.",
+      "price": 10.99,
+      "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Lasagna",
+      "description": "Layers of pasta with meat, tomato sauce, ricotta, and mozzarella.",
+      "price": 11.99,
+      "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Alfredo",
+      "description": "Fettuccine pasta with creamy Alfredo sauce and grilled chicken.",
+      "price": 12.99,
+      "image": "https://images.pexels.com/photos/1640776/pexels-photo-1640776.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Chicken Wings",
+      "description": "Crispy wings tossed in a spicy buffalo sauce.",
+      "price": 7.99,
+      "image": "https://images.pexels.com/photos/1639567/pexels-photo-1639567.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Cheeseburger",
+      "description": "Beef patty with cheddar cheese, lettuce, tomato, and pickles.",
+      "price": 6.99,
+      "image": "https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "French Fries",
+      "description": "Crispy fried potatoes seasoned with salt.",
+      "price": 2.99,
+      "image": "https://images.pexels.com/photos/1639560/pexels-photo-1639560.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Espresso",
+      "description": "Strong and rich coffee served as a shot.",
+      "price": 2.99,
+      "image": "https://images.pexels.com/photos/302901/pexels-photo-302901.jpeg"
+    }
+  ]
+}

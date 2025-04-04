@@ -1,0 +1,19 @@
+IMAGE PLACEHOLDER: pune-map.jpg
+
+Description: A detailed map of Pune city showing the location of Hunger Help's 
+main office in Koregaon Park, along with markers for its various food collection 
+centers across the city (Camp Area, Aundh, Hinjewadi, and Kothrud).
+
+Recommended image specifications:
+- Resolution: 1600x600 pixels (wide format for full-width display)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Clean, modern map style with clear location markers
+- Color scheme: Consistent with brand colors, using primary color for markers
+
+Notes for implementation:
+- Replace this text file with an actual image file named "pune-map.jpg"
+- The image should be sourced with proper rights/licensing
+- Ideally, this would be replaced with an interactive Google Maps component
+- Ensure major roads and landmarks are visible for easy navigation
+- Include a legend or key for the different types of locations 

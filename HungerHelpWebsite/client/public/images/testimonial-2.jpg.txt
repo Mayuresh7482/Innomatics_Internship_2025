@@ -1,0 +1,6 @@
+This is a placeholder for the testimonial-2.jpg image.
+
+In a real implementation, this would be a professional headshot of an NGO director
+who provides a testimonial for the platform.
+
+The recommended size is 100x100 pixels in a square format for the circular crop. 

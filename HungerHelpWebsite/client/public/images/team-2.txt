@@ -1,0 +1,17 @@
+IMAGE PLACEHOLDER: team-2.jpg
+
+Description: Professional headshot of Priya Patel, the Operations Director of Hunger Help.
+The image should show a young female professional in her mid-20s, with an organized
+and confident appearance. The background should be neutral and professional.
+
+Recommended image specifications:
+- Resolution: 600x800 pixels (3:4 ratio, portrait orientation)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Professional headshot, well-lit
+- Color scheme: Clean, professional
+
+Notes for implementation:
+- Replace this text file with an actual image file named "team-2.jpg"
+- The image should be sourced with proper rights/licensing
+- Should match the described persona of a logistics and operations expert from Pune 

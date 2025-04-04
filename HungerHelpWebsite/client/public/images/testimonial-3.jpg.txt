@@ -1,0 +1,6 @@
+This is a placeholder for the testimonial-3.jpg image.
+
+In a real implementation, this would be a professional headshot of a corporate donor
+who provides a testimonial for the platform.
+
+The recommended size is 100x100 pixels in a square format for the circular crop. 

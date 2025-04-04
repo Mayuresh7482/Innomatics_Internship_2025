@@ -1,0 +1,6 @@
+This is a placeholder for the cta-bg.jpg image.
+
+In a real implementation, this would be an engaging background image for the "Call to Action" section,
+showing community impact, food distribution, or people working together.
+
+The recommended size is 1920x800 pixels with a dark overlay to ensure text readability. 

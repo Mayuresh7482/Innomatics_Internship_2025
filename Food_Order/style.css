@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #343a40;
+}
+
+/* Main Content Layout */
+.main-content {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px); /* Full viewport height minus header */
+}
+
+
+/* Container for Food Cards */
+.container {
+    width: 75%; /* Occupies 75% of the width */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Side Cart Styles */
+#sideCart {
+    width: 25%; /* Occupies 25% of the width */
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+
+/* Food Card Styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #495057;
+}
+
+.card p {
+    font-size: 1em;
+    color: #28a745;
+    margin: 5px 0;
+}
+
+.card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #218838;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Side Cart Styles */
+#sideCart {
+    flex: 1;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#sideCart h2 {
+    border-bottom: 1px solid #495057;
+    padding-bottom: 10px;
+}
+
+#orderDisplay {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#orderDisplay li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #495057;
+}
+
+.order-item-info {
+    flex: 1;
+}
+
+.order-item-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.order-item-buttons button {
+    background-color: #ffc107;
+    border: none;
+    color: #343a40;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-item-buttons button:hover {
+    background-color: #e0a800;
+}
+
+#totalPrice {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 992px */
+/* For screens smaller than 992px */
+@media (max-width: 992px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .container,
+    #sideCart {
+        width: 100%; /* Each takes full width when stacked */
+    }
+
+    #sideCart {
+        max-height: 40vh;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #orderDisplay {
+        max-height: 20vh;
+    }
+
+    #totalPrice {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .card h3 {
+        font-size: 1em;
+    }
+
+    .order-item-buttons button {
+        padding: 3px 6px;
+        margin: 0 2px;
+    }
+}

@@ -1,0 +1,85 @@
+/* About Page Styles */
+
+.about-page .icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.about-page .team-card img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-page .team-card:hover img {
+  transform: scale(1.05);
+}
+
+.about-page .impact-stat {
+  padding: 2rem;
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-page .impact-stat:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-md);
+}
+
+.about-page img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Animation for section titles */
+.about-page .section-title {
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about-page .section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .about-page .impact-stat {
+    padding: 1.5rem;
+  }
+  
+  .about-page .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-page img {
+    max-height: 300px;
+  }
+  
+  .about-page .impact-stat {
+    padding: 1rem;
+  }
+  
+  .about-page .display-4 {
+    font-size: 2rem;
+  }
+} 

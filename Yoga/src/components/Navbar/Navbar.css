@@ -1,0 +1,78 @@
+/* Improved Navbar Styling */
+.navbar {
+  background: linear-gradient(135deg, #ffffff, #f0f8ff); /* Smooth gradient */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 12px 30px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Logo Styling */
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #3a6351;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better focus */
+}
+
+.navbar-brand:hover {
+  color: #eab676;
+  transform: scale(1.05);
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #3a3a3a;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #eab676;
+  transform: scale(1.05); /* Slight scale effect */
+}
+
+/* Active Link Styling */
+.navbar-nav .nav-link.active {
+  color: #eab676;
+  font-weight: 600;
+  border-bottom: 3px solid #eab676; /* Stylish underline */
+  padding-bottom: 5px;
+}
+
+/* Search Bar */
+.form-control {
+  border-radius: 25px;
+  border: 2px solid #eab676;
+  background-color: #ffffff;
+  color: #3a3a3a;
+  width: 230px;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+}
+
+.btn-outline-success {
+  background-color: #3a6351;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  background-color: #eab676;
+}
+
+/* Scroll Effect for Transparent Navbar */
+.scrolled {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}

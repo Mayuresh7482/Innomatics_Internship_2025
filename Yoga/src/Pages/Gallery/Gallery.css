@@ -1,0 +1,239 @@
+/* Gallery CSS */
+/* General Styling */
+.gallery-container {
+  padding: 2rem;
+  position: relative;
+  overflow: auto;
+  max-height: calc(100vh - 80px); /* Adjust based on your navbar height */
+  width: 100%;
+  z-index: 1; /* Ensure content stays above the blurred background */
+}
+
+.imageGallery_heading {
+  color: #2d635e;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.filter-section {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Grid Container */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+  position: relative; /* For stacking context */
+}
+
+.gridItem {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 300px;
+}
+
+.gridItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.gridItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Carousel Container */
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Added spacing between images */
+  overflow-x: auto; /* Smooth horizontal scrolling */
+  max-height: 300px; /* Balanced image size */
+  padding: 15px 0;
+}
+
+.carouselItem {
+  flex: 0 0 auto;
+  width: 200px; /* Smaller image width for better spacing */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease;
+}
+
+.carouselItem:hover {
+  transform: scale(1.05); /* Smooth zoom effect */
+}
+
+.carouselItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps aspect ratio */
+}
+
+
+/* List View Container */
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  margin: 0 auto;
+  /* max-width: 800px; Added max-width for better responsiveness */
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  gap: 15px; /* Improved spacing */
+}
+
+.listItem img {
+  width: 100%;  /* Adjusted width for balanced visibility */
+  /* height: 120px; Adjusted height to keep aspect ratio */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.listItemContent {
+  flex: 1; /* Expands content area */
+}
+
+.listItem h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50; /* Improved visibility */
+}
+
+.listItem p {
+  font-size: 1rem;
+  color: #f0f0f0;
+  line-height: 1.5;
+}
+
+/* View Switcher Styling */
+.viewSwitcher {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewSwitcher button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.viewSwitcher button:hover {
+  background-color: #45a049;
+}
+
+/* Background Styling */
+.page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/path-to-your-background-image.jpg"); /* Replace with your actual background image path */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Reduced opacity for more blur effect */
+  z-index: -1;
+  filter: blur(8px); /* Increased blur effect */
+}
+
+/* Alternative Background Styling */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/path-to-your-background-image.jpg"); /* Replace with your actual background image path */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Reduced opacity */
+  z-index: -1;
+  filter: blur(8px); /* Increased blur */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .gridItem {
+    height: 250px;
+  }
+
+  .imageGallery_heading {
+    font-size: 2rem;
+  }
+  .listItem {
+    flex-direction: column; /* Stacks content vertically on smaller screens */
+    align-items: flex-start;
+  }
+
+  .listItem img {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Adjusts height to maintain aspect ratio */
+  }
+
+  .imageGallery_heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .gridItem {
+    height: 200px;
+  }
+
+  .gallery-container {
+    padding: 1rem;
+  }
+
+  .imageGallery_heading {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+}

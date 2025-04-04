@@ -1,0 +1,129 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   background-color: #f0f2f5; /* Fallback background color */
+   background-image: url('https://images.unsplash.com/photo-1521747116042-5a810fda9664'); /* New Unsplash image */
+   background-size: cover; /* Ensures the image covers the entire background */
+   background-position: center; /* Centers the background image */
+   background-repeat: no-repeat; /* Prevents the image from repeating */
+   background-attachment: fixed; /* Ensures a stable background */
+   overflow: hidden;
+ }
+ 
+ .auth-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; /* Change from height to min-height */
+   overflow: hidden;   /* Prevents additional scrolling */
+   width: 100%;
+   background: rgba(255, 255, 255, 0.3); /* Reduced opacity for improved background visibility */
+   backdrop-filter: blur(2px); /* Subtle blur for text focus */
+ }
+ 
+ .auth-form {
+   background-color: #ffffff;
+   border-radius: 12px;
+   padding: 40px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 360px;
+ }
+ 
+ h2 {
+   text-align: center;
+   margin-bottom: 20px;
+   color: #eab676; /* Calm green for heading */
+ }
+ 
+ .form-group {
+   margin-bottom: 15px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+   color: #333;
+ }
+ 
+ input {
+   width: 100%;
+   padding: 10px;
+   border: 2px solid #eab676;
+   border-radius: 8px;
+   outline: none;
+   background-color: #f9f9f9;
+   transition: border 0.3s ease;
+ }
+ 
+ input:focus {
+   border-color: #eab676;
+   box-shadow: 0 0 5px rgba(92, 141, 137, 0.5);
+ }
+ 
+ .auth-button {
+   background-color: #eab676;
+   color: #ffffff;
+   border: none;
+   padding: 12px 20px;
+   width: 100%;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: background 0.3s ease-in-out;
+ }
+ 
+ .auth-button:hover {
+   background-color: #eab676;
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 768px) {
+   .auth-form {
+     width: 90%;
+     padding: 30px;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .auth-form {
+     padding: 20px;
+   }
+ 
+   h2 {
+     font-size: 1.5rem;
+   }
+ 
+   input {
+     padding: 8px;
+   }
+ 
+   .auth-button {
+     padding: 10px 15px;
+   }
+ }
+ 
+ @media (max-width: 320px) {
+   .auth-form {
+     padding: 15px;
+   }
+ 
+   h2 {
+     font-size: 1.3rem;
+   }
+ 
+   input {
+     padding: 6px;
+   }
+ 
+   .auth-button {
+     padding: 8px 12px;
+   }
+ }
+ 

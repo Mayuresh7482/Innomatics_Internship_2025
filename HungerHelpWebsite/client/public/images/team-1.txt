@@ -1,0 +1,26 @@
+IMAGE PLACEHOLDER: team-1.jpg
+
+Description: Professional headshot of Mayuresh Borate, the Founder & CEO of Hunger Help.
+The image should show a young male professional in his late 20s, looking confident
+and approachable. The background should be neutral and professional.
+
+Contact Information:
+- Email: mborate18@gmail.com
+- Phone: +91 8805322305
+- LinkedIn: https://www.linkedin.com/in/mayuresh-borate-8a732b1b3
+- GitHub: https://github.com/Mayuresh7482
+- Portfolio: https://mayureshborateportfolio.netlify.app/
+- Facebook: https://www.facebook.com/mayuresh.borate.1/
+- Instagram: https://www.instagram.com/mayureshborate5080
+
+Recommended image specifications:
+- Resolution: 600x800 pixels (3:4 ratio, portrait orientation)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Professional headshot, well-lit
+- Color scheme: Clean, professional
+
+Notes for implementation:
+- Replace this text file with an actual image file named "team-1.jpg"
+- The image should be sourced with proper rights/licensing
+- Should match the described persona of a developer and entrepreneur from Pune 

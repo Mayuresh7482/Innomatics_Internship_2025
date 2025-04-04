@@ -1,0 +1,19 @@
+IMAGE PLACEHOLDER: our-story.jpg
+
+Description: An image depicting the founding team of Hunger Help Pune, showing
+a diverse group of young people (college students) working together on the food
+donation initiative. The setting should ideally be at Pune University or another
+recognizable Pune location.
+
+Recommended image specifications:
+- Resolution: 1200x800 pixels (16:9 ratio)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Authentic, showing teamwork and passion
+- Color scheme: Natural, energetic, inspiring
+
+Notes for implementation:
+- Replace this text file with an actual image file named "our-story.jpg"
+- The image should be sourced with proper rights/licensing
+- Should convey youth energy and social entrepreneurship
+- Should represent diversity in terms of gender balance 

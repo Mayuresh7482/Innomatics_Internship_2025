@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Problem Solving - Interactive Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JS Problem Solving - Interactive Demo</h1>
+  <div class="container">
+
+    <!-- 1. ATM Withdrawal System -->
+    <section id="atmWithdrawalSection">
+      <h2>1. ATM Withdrawal System</h2>
+      <form id="atmWithdrawalForm">
+        <label for="atmBalance">Balance:</label>
+        <input type="number" id="atmBalance" required>
+        <br>
+        <label for="atmAmount">Withdrawal Amount:</label>
+        <input type="number" id="atmAmount" required>
+        <br>
+        <label for="atmPin">PIN:</label>
+        <input type="password" id="atmPin" required>
+        <br>
+        <label for="atmEnteredPin">Enter PIN:</label>
+        <input type="password" id="atmEnteredPin" required>
+        <br>
+        <button type="submit">Withdraw</button>
+      </form>
+      <p class="result" id="atmResult"></p>
+    </section>
+
+    <!-- 2. Online Shopping Discount & Free Shipping -->
+    <section id="onlineShoppingSection">
+      <h2>2. Online Shopping Discount & Free Shipping</h2>
+      <form id="onlineShoppingForm">
+        <label for="orderAmount">Order Amount ($):</label>
+        <input type="number" id="orderAmount" required>
+        <br>
+        <button type="submit">Calculate Final Amount</button>
+      </form>
+      <p class="result" id="shoppingResult"></p>
+    </section>
+
+    <!-- 3. Student Grading System with Extra Credit -->
+    <section id="studentGradingSection">
+      <h2>3. Student Grading System with Extra Credit</h2>
+      <form id="studentGradingForm">
+        <label for="studentMarks">Marks:</label>
+        <input type="number" id="studentMarks" required>
+        <br>
+        <label for="studentAttendance">Attendance (%):</label>
+        <input type="number" id="studentAttendance" required>
+        <br>
+        <button type="submit">Calculate Grade</button>
+      </form>
+      <p class="result" id="gradingResult"></p>
+    </section>
+
+    <!-- 4. Smart Traffic Light System -->
+    <section id="trafficLightSection">
+      <h2>4. Smart Traffic Light System</h2>
+      <form id="trafficLightForm">
+        <label for="trafficDensity">Traffic Density:</label>
+        <select id="trafficDensity">
+          <option value="Heavy Traffic">Heavy Traffic</option>
+          <option value="Moderate Traffic">Moderate Traffic</option>
+          <option value="Light Traffic">Light Traffic</option>
+        </select>
+        <br>
+        <button type="submit">Get Green Signal Duration</button>
+      </form>
+      <p class="result" id="trafficResult"></p>
+    </section>
+
+    <!-- 5. Movie Ticket Pricing with Time and Age Discount -->
+    <section id="movieTicketSection">
+      <h2>5. Movie Ticket Pricing with Time and Age Discount</h2>
+      <form id="movieTicketForm">
+        <label for="ticketAge">Age:</label>
+        <input type="number" id="ticketAge" required>
+        <br>
+        <label for="showTime">Show Time (hour in 24-hour format):</label>
+        <input type="number" id="showTime" required>
+        <br>
+        <button type="submit">Calculate Ticket Price</button>
+      </form>
+      <p class="result" id="ticketResult"></p>
+    </section>
+
+    <!-- 6. Job Application Filter -->
+    <section id="jobApplicationSection">
+      <h2>6. Job Application Filter</h2>
+      <form id="jobApplicationForm">
+        <label for="jobAge">Age:</label>
+        <input type="number" id="jobAge" required>
+        <br>
+        <label for="jobExperience">Experience (years):</label>
+        <input type="number" id="jobExperience" required>
+        <br>
+        <label for="jobQualification">Qualification:</label>
+        <input type="text" id="jobQualification" required>
+        <br>
+        <button type="submit">Check Eligibility</button>
+      </form>
+      <p class="result" id="jobResult"></p>
+    </section>
+
+    <!-- 7. E-commerce Coupon Redemption -->
+    <section id="couponSection">
+      <h2>7. E-commerce Coupon Redemption</h2>
+      <form id="couponForm">
+        <label for="couponOrderAmount">Order Amount ($):</label>
+        <input type="number" id="couponOrderAmount" required>
+        <br>
+        <label for="couponCode">Coupon Code:</label>
+        <input type="text" id="couponCode" required>
+        <br>
+        <button type="submit">Apply Coupon</button>
+      </form>
+      <p class="result" id="couponResult"></p>
+    </section>
+
+    <!-- 8. Fitness Membership Plan -->
+    <section id="fitnessMembershipSection">
+      <h2>8. Fitness Membership Plan</h2>
+      <form id="fitnessMembershipForm">
+        <label for="currentPlan">Current Plan:</label>
+        <select id="currentPlan">
+          <option value="Basic">Basic</option>
+          <option value="Premium">Premium</option>
+          <option value="VIP">VIP</option>
+        </select>
+        <br>
+        <label>
+          <input type="checkbox" id="wantsTrainer"> Wants Trainer
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" id="wantsDietPlan"> Wants Diet Plan
+        </label>
+        <br>
+        <button type="submit">Choose Best Plan</button>
+      </form>
+      <p class="result" id="fitnessResult"></p>
+    </section>
+
+    <!-- 9. Electricity Bill Calculation with Peak Hours -->
+    <section id="electricityBillSection">
+      <h2>9. Electricity Bill Calculation with Peak Hours</h2>
+      <form id="electricityBillForm">
+        <label for="unitsConsumed">Units Consumed:</label>
+        <input type="number" id="unitsConsumed" required>
+        <br>
+        <label for="timeOfDay">Time of Day:</label>
+        <select id="timeOfDay">
+          <option value="normal">Normal</option>
+          <option value="peak">Peak</option>
+        </select>
+        <br>
+        <button type="submit">Calculate Bill</button>
+      </form>
+      <p class="result" id="electricityResult"></p>
+    </section>
+
+    <!-- 10. Flight Ticket Booking System -->
+    <section id="flightTicketSection">
+      <h2>10. Flight Ticket Booking System</h2>
+      <form id="flightTicketForm">
+        <label for="flightClass">Class Type:</label>
+        <select id="flightClass">
+          <option value="economy">Economy</option>
+          <option value="business">Business</option>
+          <option value="first">First</option>
+        </select>
+        <br>
+        <label for="luggageWeight">Luggage Weight (kg):</label>
+        <input type="number" id="luggageWeight" required>
+        <br>
+        <label>
+          <input type="checkbox" id="isStudent"> Student
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" id="isSenior"> Senior (above 60)
+        </label>
+        <br>
+        <button type="submit">Calculate Flight Fare</button>
+      </form>
+      <p class="result" id="flightResult"></p>
+    </section>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

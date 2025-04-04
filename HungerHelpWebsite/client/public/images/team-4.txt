@@ -1,0 +1,18 @@
+IMAGE PLACEHOLDER: team-4.jpg
+
+Description: Professional headshot of Meera Joshi, the Technology Lead of Hunger Help.
+The image should show a young female professional in her mid-to-late 20s, with a tech-savvy
+and innovative appearance. The background should be neutral and professional.
+
+Recommended image specifications:
+- Resolution: 600x800 pixels (3:4 ratio, portrait orientation)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Professional headshot, well-lit
+- Color scheme: Clean, professional
+
+Notes for implementation:
+- Replace this text file with an actual image file named "team-4.jpg"
+- The image should be sourced with proper rights/licensing
+- Should match the described persona of a technology professional from Pune
+- Should convey intelligence and technical expertise 

@@ -1,0 +1,93 @@
+/* Contact Page Styles */
+
+.contact-page .contact-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.contact-page .contact-info-list li {
+  transition: transform 0.3s ease;
+}
+
+.contact-page .contact-info-list li:hover {
+  transform: translateX(5px);
+}
+
+.contact-page .faq-item {
+  padding: 1.5rem;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+
+.contact-page .faq-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.contact-page .map-container {
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.contact-page .responsive-map {
+  position: relative;
+  padding-bottom: 400px;
+  height: 0;
+  overflow: hidden;
+}
+
+.contact-page .responsive-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contact-page form .btn-primary {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Form focus styles */
+.contact-page .form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+/* Animation for section titles */
+.contact-page .section-title {
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-page .section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .contact-page .responsive-map {
+    padding-bottom: 75%;
+  }
+} 

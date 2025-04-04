@@ -1,0 +1,55 @@
+/* Category Filter Container */
+.categoryFilter {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 250px; /* Reduced from 300px */
+}
+
+/* Dropdown Styling */
+.categoryFilter select {
+  width: 100%;
+  padding: 8px 35px 8px 15px; /* Reduced padding */
+  border-radius: 20px; /* Reduced from 25px */
+  border: 2px solid #5c8d89;
+  font-size: 0.9rem; /* Reduced font size */
+  color: #3a3a3a;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  appearance: none;
+  
+  /* Custom Arrow Icon */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%235c8d89'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 12px;
+}
+
+/* Hover Effect */
+.categoryFilter select:hover {
+  border-color: #eab676;
+  background-color: #fdf6ec;
+}
+
+/* Focus Effect */
+.categoryFilter select:focus {
+  border-color: #eab676;
+  box-shadow: 0 0 12px rgba(234, 182, 118, 0.6);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .categoryFilter {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .categoryFilter select {
+    width: 100%;
+  }
+}

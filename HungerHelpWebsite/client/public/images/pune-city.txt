@@ -1,0 +1,18 @@
+IMAGE PLACEHOLDER: pune-city.jpg
+
+Description: A panoramic view of Pune city skyline, showing the urban landscape
+with a mix of modern buildings and historic architecture. Ideally, the image should
+capture recognizable Pune landmarks such as Shaniwar Wada Fort, Dagdusheth Halwai
+Ganpati Temple, or the Pune University campus.
+
+Recommended image specifications:
+- Resolution: 1200x800 pixels (16:9 ratio)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Cityscape, preferably during golden hour
+- Color scheme: Rich, vibrant colors showcasing the city's character
+
+Notes for implementation:
+- Replace this text file with an actual image file named "pune-city.jpg"
+- The image should be sourced with proper rights/licensing
+- If possible, include Pune's iconic hills in the background 

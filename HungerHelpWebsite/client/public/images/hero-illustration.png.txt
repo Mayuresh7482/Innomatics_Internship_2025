@@ -1,0 +1,6 @@
+This is a placeholder for the hero-illustration.png image.
+
+In a real implementation, this would be a modern flat-style illustration showing 
+the concept of food donation, food being shared, or the connection between donors and recipients.
+
+The recommended size is 600x600 pixels with a transparent background. 

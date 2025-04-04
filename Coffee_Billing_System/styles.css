@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?coffee') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.billing-form, .membership {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    background: #8B4513;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #A0522D;
+}
+
+.addons {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-btn {
+    background: #FFD700;
+    color: black;
+    margin: 5px;
+}
+
+.member-btn:hover {
+    background: #FFC107;
+}
+
+.hidden {
+    display: none;
+}
+
+#orderSummary {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}

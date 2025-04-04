@@ -1,0 +1,17 @@
+IMAGE PLACEHOLDER: about-hero.jpg
+
+Description: A high-quality image showing a food donation drive taking place in Pune.
+The image should show volunteers distributing food packages to people in need,
+preferably with some recognizable Pune cityscape or landmark in the background.
+
+Recommended image specifications:
+- Resolution: 1200x800 pixels (16:9 ratio)
+- File format: JPG
+- Quality: High (at least 80%)
+- Style: Natural, candid, showing real impact
+- Color scheme: Warm tones, showing community connection
+
+Notes for implementation:
+- Replace this text file with an actual image file named "about-hero.jpg"
+- The image should be sourced with proper rights/licensing
+- Photos of actual hunger relief activities in Pune would be ideal 
